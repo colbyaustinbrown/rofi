@@ -8,7 +8,6 @@
  */
 
 configuration {
-    font:                           "Noto Sans 10";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -67,7 +66,6 @@ prompt {
 	padding: 						0px 8px 0px 4px;
 	background-color: 				@background-ib;
 	text-color: 					@foreground;
-	font:							"FantasqueSansMono Nerd Font 20";
 }
 
 
@@ -132,6 +130,8 @@ element-icon {
 }
 
 element-text {
+	font:							"FantasqueSansMono Nerd Font 20";
+    font:                           "Noto Sans 10";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

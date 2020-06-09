@@ -8,7 +8,6 @@
  */
 
 configuration {
-    font:                           "Noto Sans 10";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -127,6 +126,7 @@ element-icon {
 }
 
 element-text {
+    font:                           "Noto Sans 10";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

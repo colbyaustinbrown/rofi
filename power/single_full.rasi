@@ -8,7 +8,6 @@
  */
 
 configuration {
-	font:							"FantasqueSansMono Nerd Font 14";
     show-icons:                     false;
 	icon-theme: 					"Papirus";
     drun-display-format:            "{name}";
@@ -112,6 +111,7 @@ element-icon {
 }
 
 element-text {
+	font:							"FantasqueSansMono Nerd Font 14";
 	font:							"feather 48";
     expand:                         true;
     horizontal-align:               0.5;

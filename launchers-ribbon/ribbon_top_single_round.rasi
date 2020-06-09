@@ -8,7 +8,6 @@
  */
 
 configuration {
-    font:                           "FantasqueSansMono Nerd Font 10";
     show-icons:                     true;
 	icon-theme: 					"Oranchelo";
     display-drun: 					"";
@@ -111,6 +110,7 @@ element-icon {
 }
 
 element-text {
+    font:                           "FantasqueSansMono Nerd Font 10";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;

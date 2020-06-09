@@ -8,7 +8,6 @@
  */
 
 configuration {
-    font:                           "FantasqueSansMono Nerd Font 12";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -168,6 +167,7 @@ element-icon {
 }
 
 element-text {
+    font:                           "FantasqueSansMono Nerd Font 12";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
