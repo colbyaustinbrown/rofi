@@ -8,7 +8,7 @@
  */
 
 configuration {
-    show-icons:                     false;
+    show-icons:                     true;
 	icon-theme: 					"Papirus";
     drun-display-format:            "{name}";
     disable-history:                false;
@@ -24,11 +24,11 @@ window {
     background-color:               @background;
     text-color:                     @foreground;
     border-radius:                  0px;
-    height:                         100%;
+    height:                         985px;
     width:                          12%;
     location:                       east;
     x-offset:                       0;
-    y-offset:                       0;
+    y-offset:                       17px;
 }
 
 prompt {
@@ -39,19 +39,19 @@ prompt {
 }
 
 textbox-prompt-colon {
+	font: 				"Comfortaa 16";
 	expand: 						false;
 	str: 							"System";
-	background-color: 				@border;
+	background-color: 				@foreground;
 	text-color: 					@background;
     padding:                        4px 0px 4px 12px;
 }
 
 inputbar {
-	children: 						[ textbox-prompt-colon ];
-    background-color:               @border;
-    text-color:                     @foreground;
+    background-color:               @foreground;
+    text-color:                     @background;
     expand:                         false;
-    border:                  		1px;
+    border:                  		0px;
     border-radius:                  0px;
     border-color:                  	@border;
     margin:                         0px 0px 0px 0px;
@@ -81,7 +81,7 @@ listview {
     background-color:               @background;
     margin:                         0% 0% 0% 0%;
     spacing:                        2.5%;
-    cycle:                          false;
+    cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
 }
@@ -89,7 +89,8 @@ listview {
 mainbox {
     background-color:               @background;
     spacing:                       	4%;
-    children:                       [ inputbar, listview ];
+/*	 children:                       [ inputbar, listview ]; */
+    children:				[ listview ];
     padding:                        4% 2% 0% 2%;
 }
 
@@ -107,12 +108,11 @@ element-icon {
 }
 
 element-text {
-	font:							"FantasqueSansMono Nerd Font 16";
-	font:							"feather 32";
+	font:							"Symbols Ned Font Complete 32";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    margin:                         30px 30px 30px 35px;
+    margin:                         -20px 40px 50px 35px;
 }
 
 element normal.urgent,
@@ -131,7 +131,7 @@ element alternate.active {
 element selected {
     background-color:               @selected;
     text-color:                     @foreground;
-    border:                  		1px;
+    border:                  		0px 0px 2px 0px;
     border-radius:                  0px;
     border-color:                  	@border;
 }

@@ -12,18 +12,18 @@
 # row     row_alt     row_circle
 # single     single_circle     single_full     single_full_circle     single_rounded     single_text
 
-style="full_circle"
+style="column"
 
 rofi_command="rofi -theme power/$style.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
 
 # Options
-shutdown=""
-reboot=""
-lock=""
-suspend=""
-logout=""
+shutdown=""
+reboot="⏼"
+lock=""
+suspend="鈴"
+logout=""
 dir="$HOME/.config/rofi/power"
 
 # Variable passed to rofi
