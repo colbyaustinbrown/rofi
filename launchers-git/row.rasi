@@ -22,6 +22,7 @@ configuration {
 }
 
 /* -- Light -- */
+/*
 * {
     background:                     #e5e5e5ff;
     background-alt:                 #e5e5e5ff;
@@ -32,9 +33,9 @@ configuration {
     selected:               		#D7D7D7FF;
     urgent:                         #DA4453FF;
 }
+*/
 
 /* -- Dark -- */
-/*
 * {
     background:                     #212121ff;
     background-alt:                 #212121ff;
@@ -45,7 +46,6 @@ configuration {
     selected:               		#151515ff;
     urgent:                         #DA4453FF;
 }
-*/
 
 window {
     transparency:                   "real";
