@@ -8,6 +8,7 @@
  */
 
 configuration {
+	font:				"Comfortaa 12";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -66,9 +67,7 @@ prompt {
 	padding: 						0px 8px 0px 8px;
 	background-color: 				@background-ib;
 	text-color: 					@foreground;
-	font:							"FantasqueSansMono Nerd Font 20";
 }
-
 
 inputbar {
     background-color:               @background-ib;
@@ -131,7 +130,7 @@ element-icon {
 }
 
 element-text {
-    font:                           "Noto Sans 10";
+    font:                           "Comfortaa 12";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
