@@ -54,7 +54,7 @@ window {
     border:                  		0px;
     border-radius:                  0px;
     border-color:                  	@border;
-    height:                         25%;
+    height:                         18%;
     width:                          100%;
     location:                       south;
     anchor:                         south;
@@ -73,8 +73,6 @@ inputbar {
     background-color:               @background-ib;
     text-color:                     @foreground;
     expand:                         false;
-    border:                  		0px 0px 2px 0px;
-    border-radius:                  30px;
     border-color:                  	@border;
     margin:                         10px 73% 0px 5px;
     padding:                        6px 6px 6px 6px;
@@ -87,8 +85,6 @@ entry {
     placeholder-color:              @foreground;
     expand:                         true;
     horizontal-align:               0;
-    padding:                        3px 0px 3px 0px;
-    placeholder:                    "Search Applications";
     blink:                          true;
 }
 
@@ -101,7 +97,7 @@ case-indicator {
 
 listview {
     background-color:               @background;
-    columns:                        10;
+    columns:                        8;
     spacing:                        4px;
     cycle:                          false;
     dynamic:                        true;
@@ -154,7 +150,6 @@ element selected {
     background-color:               @selected;
     text-color:                     @foreground;
     border:                  		0px 0px 3px 0px;
-    border-radius:                  15px;
     border-color:                  	@border-sel;
 }
 
