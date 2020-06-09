@@ -37,13 +37,13 @@ configuration {
 
 /* -- Dark -- */
 * {
-    background:                     #212121ff;
+    background:                     #2A2E38FF;
     background-alt:                 #212121ff;
-    background-ib:                  #151515FF;
+    background-ib:                  #333C47FF;
     foreground:                     #EDEDEDFF;
     border:               			#EDEDED4d;
-    border-sel:               		#1A73E9FF;
-    selected:               		#151515ff;
+    border-sel:               		#FDF8CEFF;
+    selected:               		#434852FF;
     urgent:                         #DA4453FF;
 }
 
