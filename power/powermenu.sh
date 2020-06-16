@@ -52,7 +52,7 @@ case $chosen in
         fi
         ;;
     $lock)
-        i3lock
+        i3lock --blur 10 -u
         ;;
     $suspend)
 		ans=$($dir/confirm.sh)
